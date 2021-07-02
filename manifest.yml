@@ -3,4 +3,5 @@ applications:
  - name: MyNewChatAPP
    random-route: true
    memory: 128M
+   buildpack:sdk-for-nodejs
    command : node  nodeserver/index.js
