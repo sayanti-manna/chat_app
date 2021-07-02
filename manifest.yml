@@ -1,0 +1,8 @@
+---
+applications:
+ - name: MyNewChatAPP
+   random-route: true
+   memory: 255M
+   instances: 1 
+   command : node  nodeserver/index.js
+   buildpack :  buildpack_sdk-for-nodejs_v4.6-20210305-2036.zip
